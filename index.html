@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Lab</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta name="theme-color" content="#181818" />
   </head>
   <body>
     <nav class="navbar">
       <div class="navbar-container">
         <div class="navbar-lead">
+          <img
+            class="navbar-logo"
+            width="30px"
+            height="30px"
+            src="/assets/img/logo.svg"
+            alt="Icon"
+            id="close"
+          />
           <h1 class="navbar-brand">Media Lab</h1>
         </div>
         <ul class="navbar-nav">
@@ -18,8 +27,37 @@
           <li class="navbar-item"><a href="#about">ABOUT</a></li>
           <li class="navbar-item"><a href="#contact">CONTACT</a></li>
         </ul>
+        <img
+          class="navbar-menuIco"
+          width="20px"
+          height="20px"
+          src="/assets/img/ICON.svg"
+          alt="Icon"
+          id="open"
+        />
       </div>
     </nav>
+
+    <div class="sidenav" style="display: none">
+      <div class="sidenav-control">
+        <div>
+          <img
+            class="sidenav-menuIco"
+            width="20px"
+            height="20px"
+            src="/assets/img/close.svg"
+            alt="Icon"
+            id="close"
+          />
+        </div>
+      </div>
+      <ul class="sidenav-menu">
+        <li class="sidenav-item"><a href="#home">HOME</a></li>
+        <li class="sidenav-item"><a href="#about">ABOUT</a></li>
+        <li class="sidenav-item"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+
     <header id="home" class="header">
       <div class="header-container">
         <h1 class="header-title">We Build. Design.</h1>
@@ -79,10 +117,13 @@
               achieved so far but I am very happy with this meeting.
             </p>
             <p>
-              If you have big plans and need our help, we will help anytime.
+              If you have big plans and need our help, we will always be ready
+              anytime.
             </p>
             <div class="section-action">
-              <a href="mailto:medialab@allblack.dev">medialab@allblack.dev</a>
+              <a href="mailto:medialab@allblack.dev"
+                >📨 medialab@allblack.dev</a
+              >
             </div>
           </div>
         </div>
@@ -94,6 +135,7 @@
         <p>Copyright © 2022 Rizqi K.</p>
       </div>
     </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
