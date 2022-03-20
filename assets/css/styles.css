@@ -34,6 +34,8 @@ footer {
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
+  background-color: #12121300;
+  backdrop-filter: blur(12px);
 }
 .navbar-container {
   width: 78%;
